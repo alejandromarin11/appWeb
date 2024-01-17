@@ -1,0 +1,21 @@
+li{
+    background: rgba(123,198,199,0.8);
+    text-align: center;
+    height: 30px;
+    list-style-type:none;
+    flex-basis: 100%;
+}
+li, a{
+    text-decoration:none ;
+    font-family: sans-serif;
+    color: black;
+    padding: 8px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+
+}
